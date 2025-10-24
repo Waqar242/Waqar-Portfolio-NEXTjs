@@ -1477,14 +1477,6 @@
     transition-duration: var(--tw-duration, var(--default-transition-duration));
   }
 
-  .delay-500 {
-    transition-delay: .5s;
-  }
-
-  .delay-1000 {
-    transition-delay: 1s;
-  }
-
   .duration-300 {
     --tw-duration: .3s;
     transition-duration: .3s;

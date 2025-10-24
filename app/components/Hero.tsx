@@ -23,7 +23,7 @@ export default function Hero({ scrollToSection }: HeroProps) {
           <div className="relative group">
             <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 via-blue-500 to-purple-600 rounded-full blur-xl opacity-75 group-hover:opacity-100 transition-opacity duration-300 animate-pulse" />
             <div className="relative w-40 h-40 rounded-full bg-gradient-to-br from-slate-800 to-slate-900 border-4 border-cyan-400/30 flex items-center justify-center text-6xl overflow-hidden">
-              <span className="text-transparent bg-clip-text bg-gradient-to-br from-cyan-400 to-blue-500 font-bold">WA</span>
+              <img src="/Waqar.png" alt="Waqar Aslam" className="w-full h-full object-cover rounded-full" />
             </div>
           </div>
         </div>
