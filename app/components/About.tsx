@@ -5,7 +5,7 @@ import { Zap, Sparkles, Code2, Rocket, Brain, Award, Server, Database } from 'lu
 export default function About() {
   const stats = [
     { label: 'Years Experience', value: '3+', icon: '🚀' },
-    { label: 'Projects Delivered', value: '20+', icon: '✨' },
+    { label: 'Projects Delivered', value: '10+', icon: '✨' },
     { label: 'Technologies Mastered', value: '25+', icon: '⚡' },
     { label: 'Client Satisfaction', value: '100%', icon: '🎯' }
   ];
@@ -43,14 +43,14 @@ export default function About() {
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-cyan-500/5 to-transparent pointer-events-none" />
 
       <div className="max-w-6xl mx-auto relative">
-        <div className="flex items-center gap-3 mb-4">
-          <Zap className="text-cyan-400 animate-pulse" size={36} />
-          <h2 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent">
+        <div className="flex flex-col md:flex-row items-center justify-center md:justify-start gap-3 mb-4 text-center md:text-left">
+          <Zap className="text-cyan-400 animate-pulse md:mt-0" size={36} />
+          <h2 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent leading-tight md:leading-none">
             About Me
           </h2>
         </div>
 
-        <p className="text-xl text-gray-400 mb-12 max-w-3xl text-justify hyphens-auto break-words">
+        <p className="text-xl text-gray-400 mb-12 max-w-3xl mx-auto md:mx-0 text-center md:text-justify hyphens-auto break-words">
           Transforming ideas into exceptional digital experiences through code, creativity, and innovation.
         </p>
 

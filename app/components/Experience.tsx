@@ -64,13 +64,12 @@ export default function Experience() {
   return (
     <section id="experience" className="py-20 px-4 relative">
       <div className="max-w-5xl mx-auto">
-        <div className="flex items-center gap-3 mb-12">
-          <Briefcase className="text-cyan-400" size={32} />
-          <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
+        <div className="flex flex-col md:flex-row items-center justify-center md:justify-start gap-3 mb-12 text-center md:text-left">
+          <Briefcase className="text-cyan-400 md:self-center" size={36} />
+          <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent leading-tight">
             Professional Journey
           </h2>
         </div>
-
         <div className="space-y-8">
           {experiences.map((exp, index) => (
             <ExperienceCard key={index} {...exp} />

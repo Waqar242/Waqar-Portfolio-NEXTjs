@@ -62,15 +62,14 @@ export default function Hero({ scrollToSection }: HeroProps) {
             and <span className="text-green-400 font-semibold">Node.js</span>.
           </p>
 
-          <p className="text-lg text-gray-400 mb-8 leading-relaxed max-w-3xl mx-auto">
+          <p className="text-lg text-gray-400 mb-8 leading-relaxed max-w-3xl mx-auto text-center">
             Experienced in designing clean frontends, building robust backends with{' '}
             <span className="text-green-400 font-semibold">Express.js</span>, and managing databases like{' '}
             <span className="text-green-400 font-semibold">PostgreSQL</span> and{' '}
             <span className="text-green-400 font-semibold">MySQL</span> using modern ORMs such as{' '}
-            <span className="text-cyan-400 font-semibold">Drizzle</span>.
+            <span className="text-cyan-400 font-semibold">Drizzle</span>.{' '}
             I create full-stack systems that connect intuitive UIs with reliable, high-performing APIs.
           </p>
-
           <TechStack />
         </div>
 

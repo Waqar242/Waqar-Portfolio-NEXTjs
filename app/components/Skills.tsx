@@ -39,9 +39,9 @@ export default function Skills() {
     <section id="skills" className="py-20 px-4">
       <div className="max-w-5xl mx-auto">
         {/* Section Title */}
-        <div className="flex items-center gap-3 mb-12">
-          <Wrench className="text-cyan-400" size={32} />
-          <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
+        <div className="flex flex-col md:flex-row items-center justify-center md:justify-start gap-3 mb-12 text-center md:text-left">
+          <Wrench className="text-cyan-400 animate-pulse md:mt-0" size={32} />
+          <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent leading-tight md:leading-none">
             Skills & Expertise
           </h2>
         </div>
@@ -55,10 +55,13 @@ export default function Skills() {
 
         {/* Expertise Overview */}
         <div className="mt-12 bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-sm rounded-2xl p-8 border border-slate-700/50">
-          <h3 className="text-2xl font-bold text-cyan-400 mb-6 flex items-center gap-2">
-            <Server size={24} />
-            Technical & Professional Expertise
-          </h3>
+          <div className="flex flex-col md:flex-row items-center justify-center md:justify-start gap-2 mb-6 text-center md:text-left">
+            <Server className="text-cyan-400" size={24} />
+            <h3 className="text-2xl font-bold text-cyan-400 leading-tight md:leading-none">
+              Technical & Professional Expertise
+            </h3>
+          </div>
+
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {expertiseLevels.map((exp, index) => (
               <SkillBadge key={index} title={exp.title} level={exp.level} icon={exp.icon} />
