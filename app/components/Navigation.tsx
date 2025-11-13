@@ -94,7 +94,7 @@ export default function Navigation({
 
           {/* ✅ Mobile Resume Button */}
           <a
-            href="/Muhammad-Waqar-Aslam-Frontend-Dev.pdf"
+            href="/MEAN-MERN-Muhammad-Waqar-Aslam.pdf"
             download
             className="block w-full text-left px-4 py-3 text-cyan-400 font-semibold border-t border-slate-800 hover:bg-slate-800 transition-colors flex items-center gap-2"
           >
