@@ -20,7 +20,7 @@ const experiences = [
   {
     company: 'TenX',
     role: 'Senior Software Engineer',
-    period: '07/2024 – 09/2024',
+    period: '07/2024 – 09/2025',
     location: 'Lahore',
     logo: '/tenx.png',
     color: 'from-purple-500 to-pink-500',
