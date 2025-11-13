@@ -60,7 +60,7 @@ export default function Navigation({
 
             {/* ✅ Resume Button */}
             <a
-              href="/Muhammad-Waqar-Aslam-Frontend-Dev.pdf"
+              href="/MEAN-MERN-Muhammad-Waqar-Aslam.pdf"
               download
               className="flex items-center gap-2 text-gray-200 bg-gradient-to-r from-cyan-500 to-blue-600 px-4 py-2 rounded-xl font-semibold hover:shadow-lg hover:shadow-cyan-500/20 transition-all duration-300"
             >
